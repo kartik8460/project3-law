@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #2b2922;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    background-color: #2b2922;
+}
+
+.list {
+    display: inline-block;
+}
+
+.list-item {
+    display: inline-block;
+    color: grey;
+    margin: 0px 25px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.list-item:hover {
+    color: #FFFFFF ;
+}
+
+.button-small {
+    background: transparent;
+    color: #9f8e36;
+    border: 1px solid #9f8e36;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section {
+    margin-top: 50px;
+    background-image: url("./assets//pexels-ekaterina-bolovtsova-6077326.jpg");
+    background-size: cover;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.upper-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2922;
+    height: fit-content;
+    padding: 0px 100px 50px 100px;
+}
+
+.left-section {
+    padding-right: 50px;
+}
+
+.left-section h1 {
+    color: #FFFFFF;
+    font-size: 80px;
+}
+
+.right-section {
+    color: gray;
+    font-size: 20px;
+    margin-left: 100px;
+    line-height: 30px;
+}
+
+.right-section p {
+    padding: 0px 245px;
+}
+
+.lower-section {
+    background-color: #2b2922;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.lower-section-btn {
+    background-color: #39372d;
+    padding: 40px;
+    margin-left: 2px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #9f8e36;
+}
+
+.lower-section-btn:hover {
+    background-color: #a08f36;
+}
